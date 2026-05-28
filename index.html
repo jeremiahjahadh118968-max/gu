@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stayat.hotelconsuladoinn.com</title>
+    <style>
+      :root { --bg:#06121f; --panel:#071728; --accent:#19b7b0; --text:#f8fafc; --muted:#a4b2c4; }
+      * { box-sizing: border-box; }
+      body {
+        margin:0;
+        min-height:100vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-family: Inter, system-ui, sans-serif;
+        color:var(--text);
+        background:
+          radial-gradient(circle at top, rgba(25,183,176,0.18), transparent 26%),
+          linear-gradient(180deg, #020b14, var(--bg));
+      }
+      .card {
+        width:min(760px, calc(100% - 2rem));
+        padding:2rem;
+        border-radius:24px;
+        background:rgba(7, 23, 40, 0.84);
+        box-shadow:0 24px 96px rgba(0,0,0,0.38);
+        border:1px solid rgba(25,183,176,0.18);
+        backdrop-filter: blur(8px);
+      }
+      h1 { margin:0 0 0.5rem; font-size:clamp(2rem, 5vw, 3.4rem); }
+      p { margin:0.65rem 0 0; color:var(--muted); font-size:1.04rem; line-height:1.55; }
+      .status {
+        display:inline-flex;
+        align-items:center;
+        gap:0.5rem;
+        margin:1rem 0 1.2rem;
+        padding:0.45rem 0.7rem;
+        border-radius:999px;
+        background:rgba(25,183,176,0.14);
+        color:#52f3ed;
+        font-size:0.82rem;
+        font-weight:700;
+      }
+      .dot {
+        width:0.5rem;
+        height:0.5rem;
+        border-radius:999px;
+        background:#52f3ed;
+        box-shadow:0 0 0 0.2rem rgba(82,243,237,0.18);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div class="status"><span class="dot"></span> Hosting-ready status</div>
+      <h1>stayat.hotelconsuladoinn.com</h1>
+      <p>This site is configured as a static hosting page for <strong>stayat.hotelconsuladoinn.com</strong> and is currently reachable locally.</p>
+      <p>The deployment is unblocked, responsive, and ready to be published to any static hosting provider, CDN, or web server.</p>
+      <p>Current status: reachable, accessible, and ready for hosting.</p>
+    </main>
+  </body>
+</html>
